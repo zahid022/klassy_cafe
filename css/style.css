@@ -1,0 +1,447 @@
+:root {
+    --primary: #fb5849;
+    --second: #2a2a2a;
+    --white: #fff;
+    --link: #007bff;
+    --third: #fffafa;
+}
+
+.txtlink {
+    color: var(--link);
+}
+
+.txtpr {
+    color: var(--primary);
+}
+
+.txtsc {
+    color: var(--second);
+}
+
+.txtag {
+    color: var(--white);
+}
+
+.bgpr {
+    background-color: var(--primary);
+}
+
+.bgag {
+    background-color: var(--white);
+}
+
+.bgth {
+    background-color: var(--third);
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+.dblck {
+    display: block;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font: 700 2em 'Dancing Script';
+}
+
+.rowmin::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.relative {
+    position: relative;
+}
+
+.col33min {
+    width: 33.33%;
+}
+
+.fleftmin {
+    float: left;
+}
+.frightmin{
+    float: right;
+}
+.col20min {
+    width: 20%;
+}
+
+.col70min {
+    width: 67%;
+}
+
+.col15min {
+    width: 13%;
+}
+
+.tlcentermin {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.ip {
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+/*     h  e  a  d  e  r      */
+nav {
+    padding: 20px 0;
+}
+#nav-icon{
+    font-size: 1.5em;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+}
+#nav-menu{
+    display: none;
+}
+.nav-list {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-list a {
+    font: 600 .9em Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+
+.nav-list a:hover {
+    color: var(--primary);
+}
+
+/*     m  a  i  n       */
+/*     m  a  i  n  -  1     */
+#klassycafe {
+    background: url('../img/top-left-bg.jpg') center/cover;
+    padding: 30px 0;
+}
+
+#slider1 {
+    background: url('../img/slide-01.jpg') center/cover;
+    min-height: 80vh;
+}
+
+.text1 {
+    font: 600 1em 'Poppins';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font: 600 .8em 'Poppins';
+    transition: .5s;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    background-color: #ffffffbc;
+    border: 1px solid #ffffffbc;
+}
+
+/*      m  a  i  n  -  2      */
+.main-2 {
+    padding: 80px 0;
+}
+
+.box-2 {
+    padding: 20px 0;
+}
+
+.text2,
+.text6 {
+    font: 500 1em 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+
+.text2::before {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #fb5849;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+
+.text6::before {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 12px;
+    left: 0;
+}
+
+.text3 {
+    line-height: 1.8em;
+    margin: 20px 0 25px 0;
+    font: 900 1.8em 'Poppins';
+}
+
+.text4 {
+    font: .8em 'Poppins';
+    line-height: 1.8em;
+    margin-bottom: 25px;
+}
+
+.about {
+    padding: 0 20px 0 0;
+}
+
+.about img,
+#about-video {
+    width: 100%;
+}
+
+/*     m  a  i  n  -  3       */
+.main-3 {
+    padding: 100px 0;
+}
+
+.text5 {
+    font: 500 1em 'Poppins';
+    letter-spacing: 2px;
+}
+
+.box-3 {
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 40px 0 40px 0;
+    transition: .3s;
+}
+
+.box-3:hover {
+    border: 1px solid #fb5849;
+}
+
+.box-3:hover .box-3-cont>h3 {
+    color: #fb5849;
+}
+
+.box-3 img {
+    width: 100%;
+}
+
+.box-3-cont {
+    padding: 20px 0;
+}
+
+.box-3-cont h3 {
+    font: 700 1.3em 'Poppins';
+    transition: .3s;
+}
+
+.box-3-cont span {
+    font: .9em 'Poppins';
+}
+
+/*    c  o  n  t  a  c  t    */
+.contact {
+    background: url('../img/reservation-bg.jpg') center/cover;
+    padding: 100px 0;
+}
+
+.box-5 {
+    margin: 40px 0 40px 0;
+    padding: 0 0 20px 0;
+}
+
+.box-5 i {
+    margin-top: -35px;
+    display: inline-block;
+}
+
+.text7 {
+    margin: 15px 0 10px 0;
+    font: 700 1.4em 'Poppins';
+}
+
+.box-5 span {
+    font-size: .9em;
+}
+
+.box-6 {
+    padding: 30px 20px;
+}
+
+form input,
+select,
+textarea {
+    margin: 0 0 20px 0;
+    outline: none;
+    padding: 15px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#mes {
+    height: 150px;
+}
+
+.btn-2 {
+    padding: 15px 0;
+    border: 1px solid #fb5849;
+}
+
+/*      m  a  i  n  -  4      */
+.main-4 {
+    padding: 100px 0;
+}
+
+.main-4 li {
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+.fresh {
+    padding: 0;
+    font: 700 1.3em 'Poppins';
+    margin: 0 0 10px 0;
+}
+
+.text7 {
+    font: .9em 'Poppins';
+}
+
+.pay {
+    padding: 15px 5px;
+}
+
+.item-3 {
+    padding: 0 10px;
+}
+
+article {
+    margin: 40px 0;
+}
+
+/*       f  o  o  t  e  r      */
+footer {
+    padding: 80px 0;
+}
+
+footer a {
+    padding: 15px;
+    border-radius: 50%;
+    margin: 1vw;
+}
+
+.footer-img {
+    margin: 30px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .vh80 {
+        min-height: 80vh;
+    }
+
+    .tlcenter {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+
+    .tl {
+        left: 0;
+        top: -40px;
+        position: absolute;
+    }
+
+    .tr {
+        right: 0;
+        top: -20px;
+        position: absolute;
+    }
+
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    #nav-icon{
+        display: none;
+    }
+    #nav-menu{
+        display: block;
+    }
+    .nav-list {
+        display: inline-block;
+        border: none;
+        padding: 20px 1vw;
+    }
+
+    .txtleft {
+        text-align: left;
+    }
+
+    .fleft {
+        float: left;
+    }
+
+    .fright {
+        float: right;
+    }
+
+    .col33 {
+        width: 33.333%;
+    }
+
+    .col66 {
+        width: 66.666%;
+    }
+
+    .col50 {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 3.4em;
+    }
+
+    .box-2,
+    .item-1,
+    .item-2 {
+        padding: 0 10px;
+    }
+
+    .footer-img {
+        margin: 0;
+    }
+}
